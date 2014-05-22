@@ -1,0 +1,39 @@
+.xAxis text,
+.yAxis text{
+	fill: #aaaaaa;
+}
+
+.xAxis path,
+.xAxis line,
+.yAxis path,
+.yAxis line{
+	fill: none;
+	stroke: #aaaaaa;
+	shape-rendering: crispEdges;
+}
+
+.graphBar {
+	fill: #c83232;
+}
+
+.graphTitle {
+	font: 20px sans-serif;
+	text-anchor: middle;
+	fill: #aaaaaa;
+}
+
+#gdpGraph {
+	margin: auto;
+	width: 600px;
+	height: 400px;
+}
+
+#toolTip {
+	position: absolute;
+	padding: 5px;
+	background-color: #aaaaaa;
+	color: #414141;
+	top: 0;
+	left: 500px;
+	opacity: 0;
+}
